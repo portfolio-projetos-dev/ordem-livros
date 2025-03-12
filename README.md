@@ -1,27 +1,38 @@
-# ordem-livros
+# 📖 Ordem dos Livros
 
-Ordem Livros é uma aplicação que exibe autores, livros e outros dados literários. Desenvolvida utilizando HTML, CSS, Svelte e JavaScript, permite a exploração de listas de livros, biografias dos autores e resenhas.
+<div align="center">
+<img src="https://github.com/portfolio-projetos-dev/ordem-livros/raw/main/.gitassets/capa.png" width="350" />
 
-![Tela inicial](.gitassets/1.png)
-![Tela inicial](.gitassets/2.png)
+<div data-badges>
+  <img src="https://img.shields.io/github/stars/portfolio-projetos-dev/ordem-livros?style=for-the-badge" alt="GitHub stars" />
+  <img src="https://img.shields.io/github/forks/portfolio-projetos-dev/ordem-livros?style=for-the-badge" alt="GitHub forks" />
+  <img src="https://img.shields.io/github/issues/portfolio-projetos-dev/ordem-livros?style=for-the-badge" alt="GitHub issues" />
+</div>
 
-## O que é este projeto?
+<div data-badges>
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte" />
+</div>
+</div>
 
-Ordem Livros é uma aplicação web que possibilita aos usuários explorar uma coleção de livros e informações relacionadas aos autores. Com uma interface interativa construída com Svelte, HTML e CSS, o projeto oferece uma experiência intuitiva para descobrir novas leituras e detalhes sobre cada título e seu autor.
+O projeto Ordem dos Livros é uma aplicação moderna e interativa, criada para amantes da literatura que desejam explorar e descobrir informações detalhadas sobre autores, livros e outros dados literários, além de acompanhar a ordem cronológica ou de publicação dos livros em séries literárias.
 
-## Como rodar o projeto?
+O projeto permite que os usuários naveguem por listas organizadas de livros, acessem biografias completas de autores e leiam resenhas detalhadas que oferecem insights valiosos sobre cada obra. A aplicação também oferece uma experiência de pesquisa ágil e funcional, permitindo localizar rapidamente informações específicas sobre autores ou títulos.
 
-### Requisitos
+## 🖥️ Como rodar este projeto 🖥️
 
-- Navegador moderno
-- (Opcional) Servidor local para desenvolvimento
+### Requisitos:
 
-### Passos para executar
+- Node.js instalado
+
+### Execução:
 
 1. Clone o repositório:
 
    ```sh
-   git clone https://github.com/seu-repositorio/ordem-livros.git
+   git clone https://github.com/portfolio-projetos-dev/ordem-livros.git
    ```
 
 2. Acesse o diretório do projeto:
@@ -30,24 +41,36 @@ Ordem Livros é uma aplicação web que possibilita aos usuários explorar uma c
    cd ordem-livros
    ```
 
-3. Abra o arquivo `index.html` em seu navegador ou utilize um servidor local (como o Live Server do VS Code).
+3. Instale as dependências:
 
-## Tecnologias Utilizadas
+   ```sh
+   npm install
+   ```
 
- <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); gap: 10px; align-items: center;">
-   <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
-   <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
-   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-   <img src="https://img.shields.io/badge/svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte" />
- </div>
-    
-  ## Features do Projeto
-  - Exibição organizada de livros e autores
-  - Interface responsiva e intuitiva
-  - Navegação interativa e dinâmica
-    
-  ## Links Úteis
-  - [Documentação do HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-  - [Documentação do CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-  - [Documentação do Svelte](https://svelte.dev/docs)
-  - [Documentação do JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+4. Inicie o projeto:
+
+   ```sh
+   npm run dev
+   ```
+
+5. Acesse o projeto em [http://localhost:3000](http://localhost:3000).
+
+## 🗒️ Features do projeto 🗒️
+
+- Exibição organizada de livros e autores
+- Interface responsiva
+- Navegação interativa e dinâmica
+- Modo escuro
+
+![](https://github.com/portfolio-projetos-dev/ordem-livros/raw/main/.gitassets/1.png)
+
+![](https://github.com/portfolio-projetos-dev/ordem-livros/raw/main/.gitassets/2.png)
+
+![](https://github.com/portfolio-projetos-dev/ordem-livros/raw/main/.gitassets/3.png)
+
+## 💎 Links úteis 💎
+
+- [Documentação do HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [Documentação do CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Documentação do Svelte](https://svelte.dev/docs)
+- [Documentação do JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
